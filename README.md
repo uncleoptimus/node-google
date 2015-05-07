@@ -45,14 +45,14 @@ google('node.js best practices', function (err, next, links){
 
 You can specify results in a certain timeframe. Defaults to results in the last year. The values work as such (choose one):
 
-'''js
+```js
 var google = require('google')
 
 google.resultsTimeFrame = 'h' //information indexed in the past hour
 google.resultsTimeFrame = 'd' //information indexed in the past day
 google.resultsTimeFrame = 'w' //information indexed in the past week
 google.resultsTimeFrame = 'm' //information indexed in the past month
-'''
+```
 
 You can also specify the TLD of the Google search page and the language.
 If you change the language you must translate the next page results text to detect the corresponding link.
